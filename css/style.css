@@ -1,0 +1,155 @@
+
+
+#wrapper{
+max-width:960px;
+margin:  auto;
+border-style: solid;
+border-width: 1px;
+background-color: rgb(42,47,102);
+display: block;
+background: none repeat scroll rgb(96,99,140);
+}
+
+
+body {
+height:100%;
+background-color:rgb(42,47,102);
+margin: auto;
+}
+
+
+h2 {
+text-align: center;
+font-family: "Exo", sans-serif;
+    src: url(../Fonts/Exo/Exo-Black.ttf);
+}
+    
+#h2left{
+    margin-top: 50px;
+}    
+#h2right{
+    margin-top: 120px;
+    
+}   
+
+h3 {
+text-align: center;
+font-family: "Exo", sans-serif;
+}
+
+ p {
+   text-align: center;     
+   margin-right: 10px;
+   margin-left: 10px;  
+   font-size: 18px;
+   font-family: "Pontano+Sans","Source+Serif+Pro", Serif;  
+   src: url(../Fonts/Pontano_Sans/PontanoSans-Regular.ttf);
+   src: url(../Fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf); 
+    
+    width: 940px; 
+     height:100%;
+    }
+    
+.textRight{
+    text-align: right;
+}   
+    
+
+.topnav {
+    background-color: rgb(96,99,140);
+    overflow: hidden;
+    width:960px;
+    margin: auto;
+   
+}
+.topnav a {
+    margin-left:120px ;
+    display: inline-block;
+    color:aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    
+    
+}
+.topnav a:hover {
+    background-color: rgb(140,24,24);
+    color: black;
+    width: 150px;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+    font-family: "Source+Serif+Pro", serif;
+    src: url(../Fonts/Pontano_Sans/PontanoSans-Regular.ttf);
+   src: url(../Fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf); 
+}
+p{
+font-family:"Pontano+Sans", sans-serif;
+    src: url(../Fonts/Pontano_Sans/PontanoSans-Regular.ttf);
+   src: url(../Fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf); 
+margin-bottom: auto;
+}
+p a{
+color: rgb(140,24,24);    
+    
+    
+}
+
+.header-unit {
+  height: 450px;
+  border: 2px solid #000;
+  border-right:none;
+  border-left: none;
+  position: relative;
+  padding: 20px;
+  width:960px;
+  display: block;
+  margin: 0 auto;
+}
+#video-container {
+	position: absolute;
+}
+#video-container {
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+video {
+	position:absolute;
+	z-index:0;
+}
+video.fillWidth {
+	width: 100%;
+   
+}
+
+footer  {
+  width: 100%;
+  background-color:rgb(136,115,180);
+  border-style: outset;
+  border-color: black;
+  margin-top: 250px
+  
+}
+footer p{
+    text-align: center;
+    padding-left: 450px;
+
+}
+
+iframe{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-bottom-style: solid;
+    border-bottom-width:1px;
+
+}
+
+
+
